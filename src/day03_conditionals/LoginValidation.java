@@ -1,7 +1,7 @@
 package day03_conditionals;
 
 /*
-    Learning
+    I have learned:
     * && (AND)
     * || (OR)
     * .equals() instead of == for strings
