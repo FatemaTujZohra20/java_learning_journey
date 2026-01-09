@@ -1,6 +1,6 @@
 package day03_conditionals;
 
-/*
+/**
     Learning:
     * Defensive programming
     * Validating inputs before using them

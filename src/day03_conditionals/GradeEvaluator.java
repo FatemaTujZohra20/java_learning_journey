@@ -1,6 +1,6 @@
 package day03_conditionals;
 
- /*
+ /**
     Learning sections:
     * Multiple conditions
     * Top-down evaluation

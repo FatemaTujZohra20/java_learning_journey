@@ -1,6 +1,6 @@
 package day03_conditionals;
 
- /*
+ /**
     * Basic decision-making
     * Boolean condition evaluation
     * Clean readable structure

@@ -1,6 +1,6 @@
 package day03_conditionals;
 
-/*
+/**
     I have learned:
     * && (AND)
     * || (OR)

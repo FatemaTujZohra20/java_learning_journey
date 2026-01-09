@@ -1,6 +1,6 @@
 package day03_conditionals;
 
-/*
+/**
     Learning:
     * Fail fast principle
     * Cleaner logic
