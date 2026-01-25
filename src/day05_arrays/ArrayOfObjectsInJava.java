@@ -48,5 +48,11 @@ public class ArrayOfObjectsInJava {
 
         System.out.println();
 
+        // Enhanced for loop
+        // ------------------------
+        for (Learner learnerObj : learners) {
+            System.out.println(learnerObj.rollNo +  ". " + learnerObj.name + " " +
+                    learnerObj.age + " " + learnerObj.subject );
+        }
     }
 }
