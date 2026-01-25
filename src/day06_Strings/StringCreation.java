@@ -30,7 +30,7 @@ public class StringCreation {
 
         /**
          * ---------------------------------------------------------
-         * 1️⃣ String literal creation
+         * String literal creation
          * ---------------------------------------------------------
          *
          * When a String is created using double quotes (""),
@@ -57,7 +57,7 @@ public class StringCreation {
 
         /**
          * ---------------------------------------------------------
-         * 2️⃣ Using new keyword
+         *  Using new keyword
          * ---------------------------------------------------------
          *
          * 'new String("Java")' ALWAYS creates a new object
@@ -85,7 +85,7 @@ public class StringCreation {
 
         /**
          * ---------------------------------------------------------
-         * 3️⃣ equals() comparison
+         * equals() comparison
          * ---------------------------------------------------------
          *
          * equals() compares CONTENT, not memory address.
