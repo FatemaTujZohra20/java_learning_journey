@@ -32,6 +32,15 @@ public class SortingList {
 //        };
 
 
+//        // Lambda expression
+//        Comparator<Integer> c = (i, j) -> i%10>j%10?1:-1;
+//
+//        Collections.sort(values, c);
+//
+//        for (Integer o : values) {
+//            System.out.println(o);
+//        }
+
         // Lambda expression
         Comparator<Integer> c = (i, j) -> i%10>j%10?1:-1;
 
@@ -40,6 +49,7 @@ public class SortingList {
         for (Integer o : values) {
             System.out.println(o);
         }
+
     }
 
 }
