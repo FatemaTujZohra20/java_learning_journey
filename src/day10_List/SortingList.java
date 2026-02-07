@@ -24,13 +24,16 @@ public class SortingList {
 //            }
 //        };
 
-        Comparator<Integer> c = new Comparator<Integer>() {
-            @Override
-            public int compare(Integer i, Integer j) {
-                return i%10>j%10?1:-1;      // Ternary Operator
-            }
-        };
+//        Comparator<Integer> c = new Comparator<Integer>() {
+//            @Override
+//            public int compare(Integer i, Integer j) {
+//                return i%10>j%10?1:-1;      // Ternary Operator
+//            }
+//        };
 
+
+        // Lambda expression
+        Comparator<Integer> c = (i, j) -> i%10>j%10?1:-1;
 
         Collections.sort(values, c);
 
