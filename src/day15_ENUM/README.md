@@ -3,7 +3,7 @@
 [https://www.w3schools.com/java/java_enums.asp](https://www.w3schools.com/java/java_enums.asp)
 
 
-
+Enum is a very important topic.
 
 
 
