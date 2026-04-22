@@ -1,5 +1,6 @@
-package day11_Stream_API;
+package day14_Stream_API;
 
+import java.util.Comparator;
 import java.util.List;
 
 public class CustomSorting {
@@ -8,12 +9,8 @@ public class CustomSorting {
         
         // Beginner Style code:
         names.stream()
-                .sorted((a, b) -> {
-                    return b.compareTo(a);  // reverse comparison
-                })
-                .forEach(name -> {
-                    System.out.println(name);
-                });
+                .sorted(Comparator.reverseOrder())
+                .forEach(System.out::println);
         
         // Advance Senior level writing:
 //        names.stream()
